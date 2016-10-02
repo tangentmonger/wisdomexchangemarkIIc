@@ -18,8 +18,10 @@ int main(int argc, char** argv )
     cv::Mat image;
     image = cv::imread(argv[1], 1);
     
-    cv::namedWindow("Display Image", cv::WINDOW_AUTOSIZE);
+    cv::namedWindow("Display Image", cv::WINDOW_NORMAL);
     cv::imshow("Display Image", aWisdom.getOriginal());
+    cv::waitKey(0);
+    cv::imshow("Display Image", aWisdom.getPrepared());
     cv::waitKey(0);
        
     return 0;
