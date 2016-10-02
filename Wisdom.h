@@ -9,8 +9,8 @@ class Wisdom
     public:
         Wisdom(char* thefilepath);
         ~Wisdom();
-        cv::Mat get_original();
-        char* get_filepath();
+        cv::Mat getOriginal();
+        char* getFilepath();
 
     protected:
         char* filepath;

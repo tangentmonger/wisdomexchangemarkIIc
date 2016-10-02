@@ -12,12 +12,12 @@ Wisdom::~Wisdom()
 {
 }
 
-char* Wisdom::get_filepath()
+char* Wisdom::getFilepath()
 {
     return filepath;
 }
 
-cv::Mat Wisdom::get_original()
+cv::Mat Wisdom::getOriginal()
 {
     //todo: caching
     original = cv::imread(filepath, 1);
