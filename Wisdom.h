@@ -9,24 +9,24 @@ class Wisdom
 {
     public:
         // Constructor. Supply the path to the image of the wisdom.
-        Wisdom(char* thefilepath);
+        Wisdom(char * thefilepath);
 
         // Destructor.
         ~Wisdom();
 
         // Get the filepath to the wisdom image.
-        char* getFilepath();
+        char * getFilepath();
 
         // Load and return the original wisdom image.
-        cv::Mat getOriginal();
+        cv::Mat * getOriginal();
 
         // Load and return the prepared wisdom image (scaled, thresholded
         // and inverted to give a white-on-black image ready for further
         // image operations).
-        cv::Mat getPrepared();
+        cv::Mat * getPrepared();
 
     protected:
-        char* filepath;
+        char * filepath;
         cv::Mat original;
         cv::Mat prepared;
 };

@@ -12,27 +12,27 @@ Wisdom::~Wisdom()
 {
 }
 
-char* Wisdom::getFilepath()
+char * Wisdom::getFilepath()
 {
     return filepath;
 }
 
-cv::Mat Wisdom::getOriginal()
+cv::Mat * Wisdom::getOriginal()
 {
     // Cache the image once loaded.
     if(original.empty())
     {
         original = cv::imread(filepath, 1);
     }
-    return original;
+    return &original;
 }
 
-cv::Mat Wisdom::getPrepared()
+cv::Mat * Wisdom::getPrepared()
 {
     // Cache the image once generated.
     if(prepared.empty())
     {
-        prepared = getOriginal();
+        prepared = getOriginal()->clone();
         // Convert to B&W
         cv::cvtColor(prepared, prepared, cv::COLOR_BGR2GRAY);
         // Resize to 10% of original size, so that later operations are faster
@@ -42,7 +42,7 @@ cv::Mat Wisdom::getPrepared()
         int THRESHOLD = 230;
         cv::threshold(prepared, prepared, THRESHOLD, 255, cv::THRESH_BINARY_INV);
     }
-    return prepared;
+    return &prepared;
 
 }
 
