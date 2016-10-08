@@ -16,9 +16,11 @@ int main(int argc, char** argv )
     Wisdom aWisdom(filepath);
     
     cv::namedWindow("Display Image", cv::WINDOW_NORMAL);
-    cv::imshow("Display Image", *aWisdom.getOriginal());
-    cv::waitKey(0);
-    cv::imshow("Display Image", *aWisdom.getPrepared());
+    //cv::imshow("Display Image", *aWisdom.getOriginal());
+    //cv::waitKey(0);
+    //cv::imshow("Display Image", *aWisdom.getPrepared());
+    //cv::waitKey(0);
+    cv::imshow("Display Image", *aWisdom.getHoughLines());
     cv::waitKey(0);
        
     return 0;

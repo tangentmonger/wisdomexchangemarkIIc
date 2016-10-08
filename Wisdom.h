@@ -25,9 +25,11 @@ class Wisdom
         // image operations).
         cv::Mat * getPrepared();
 
+        cv::Mat * getHoughLines();
     protected:
         char * filepath;
         cv::Mat original;
         cv::Mat prepared;
+        cv::Mat houghLines;
 };
 #endif
