@@ -51,9 +51,8 @@ void WisdomTest::loadTestData()
 void WisdomTest::detect_blanks()
 {
     int correct = 0;
-    for(int i=0; i<m_testData.size(); i++)
+    for(TestData data : m_testData)
     {
-        TestData data = m_testData[i];
         Wisdom wisdom(data.imagePath);
         bool blank = wisdom.isBlank();
         if(blank == data.isBlank)
