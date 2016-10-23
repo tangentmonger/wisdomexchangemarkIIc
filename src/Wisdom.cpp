@@ -5,7 +5,9 @@
 #include <math.h>
 #include <list>
 
-Wisdom::Wisdom(char* thefilepath)
+#define INK_THRESHOLD 100
+
+Wisdom::Wisdom(std::string thefilepath)
 {
     filepath = thefilepath;
 }
@@ -14,7 +16,7 @@ Wisdom::~Wisdom()
 {
 }
 
-char * Wisdom::getFilepath()
+std::string Wisdom::getFilepath()
 {
     return filepath;
 }
@@ -24,7 +26,8 @@ cv::Mat * Wisdom::getOriginal()
     // Cache the image once loaded.
     if(original.empty())
     {
-        original = cv::imread(filepath, 1);
+        char * path = const_cast<char*>(filepath.c_str());
+        original = cv::imread(path, 1);
     }
     return &original;
 }
@@ -46,6 +49,17 @@ cv::Mat * Wisdom::getPrepared()
     }
     return &prepared;
 
+}
+
+
+// Return true if this wisdom is blank (i.e. ink is below threshold)
+bool Wisdom::isBlank()
+{
+    //TODO: cache result
+    //TODO: use 1-bit array instead of whatever the B&W default is, see if it's faster
+    //double ink = cv::sum(*getPrepared())[0] ;
+    double ink = cv::countNonZero(*getPrepared());
+    return (ink < INK_THRESHOLD);
 }
 
 cv::Mat * Wisdom::getHoughLines()
