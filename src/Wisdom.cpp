@@ -27,7 +27,7 @@ cv::Mat * Wisdom::getOriginal()
     if(original.empty())
     {
         char * path = const_cast<char*>(filepath.c_str());
-        original = cv::imread(path, 1);
+        original = cv::imread(path, CV_LOAD_IMAGE_GRAYSCALE);
     }
     return &original;
 }
@@ -38,8 +38,6 @@ cv::Mat * Wisdom::getPrepared()
     if(prepared.empty())
     {
         prepared = getOriginal()->clone();
-        // Convert to B&W
-        cv::cvtColor(prepared, prepared, cv::COLOR_BGR2GRAY);
         // Resize to 10% of original size, so that later operations are faster
         cv::resize(prepared, prepared, cv::Size(), 0.1, 0.1, cv::INTER_AREA);
         // Threshold and invert: pixels darker than threshold become white and
@@ -55,9 +53,7 @@ cv::Mat * Wisdom::getPrepared()
 // Return true if this wisdom is blank (i.e. ink is below threshold)
 bool Wisdom::isBlank()
 {
-    //TODO: cache result
-    //TODO: use 1-bit array instead of whatever the B&W default is, see if it's faster
-    //double ink = cv::sum(*getPrepared())[0] ;
+    //TODO: cache result maybe
     double ink = cv::countNonZero(*getPrepared());
     return (ink < INK_THRESHOLD);
 }
