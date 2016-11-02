@@ -1,113 +1,112 @@
-../wisdom/wisdom-0000.jpeg, true,  0
-../wisdom/wisdom-0001.jpeg, false, 0
-../wisdom/wisdom-0002.jpeg, false, 0
-../wisdom/wisdom-0003.jpeg, false, 0
-../wisdom/wisdom-0004.jpeg, false, 0
-../wisdom/wisdom-0005.jpeg, false, 0
-../wisdom/wisdom-0006.jpeg, false, 0
-../wisdom/wisdom-0007.jpeg, false, 0
-../wisdom/wisdom-0008.jpeg, false, 0
-../wisdom/wisdom-0009.jpeg, false, 0
-../wisdom/wisdom-0010.jpeg, false, 0
-../wisdom/wisdom-0011.jpeg, false, 0
-../wisdom/wisdom-0012.jpeg, false, 0
-../wisdom/wisdom-0013.jpeg, false, 0
-../wisdom/wisdom-0014.jpeg, false, 0
-../wisdom/wisdom-0015.jpeg, false, 0
-../wisdom/wisdom-0016.jpeg, false, 0
-../wisdom/wisdom-0017.jpeg, false, 0
-../wisdom/wisdom-0018.jpeg, false, 0
-../wisdom/wisdom-0019.jpeg, false, 0
-../wisdom/wisdom-0020.jpeg, false, 0
-../wisdom/wisdom-0021.jpeg, false, 0
-../wisdom/wisdom-0022.jpeg, false, 0
-../wisdom/wisdom-0023.jpeg, false, 0
-../wisdom/wisdom-0024.jpeg, false, 0
-../wisdom/wisdom-0025.jpeg, false, 0
-../wisdom/wisdom-0026.jpeg, false, 0
-../wisdom/wisdom-0027.jpeg, false, 0
-../wisdom/wisdom-0028.jpeg, false, 0
-../wisdom/wisdom-0029.jpeg, false, 0
-../wisdom/wisdom-0030.jpeg, false, 0
-../wisdom/wisdom-0031.jpeg, false, 0
-../wisdom/wisdom-0032.jpeg, false, 0
-../wisdom/wisdom-0033.jpeg, false, 0
-../wisdom/wisdom-0034.jpeg, false, 0
-../wisdom/wisdom-0035.jpeg, false, 0
-../wisdom/wisdom-0036.jpeg, false, 0
-../wisdom/wisdom-0037.jpeg, false, 0
-../wisdom/wisdom-0038.jpeg, false, 0
-../wisdom/wisdom-0039.jpeg, false, 0
-../wisdom/wisdom-0040.jpeg, false, 0
-../wisdom/wisdom-0041.jpeg, false, 0
-../wisdom/wisdom-0042.jpeg, false, 0
-../wisdom/wisdom-0043.jpeg, false, 0
-../wisdom/wisdom-0044.jpeg, false, 0
-../wisdom/wisdom-0045.jpeg, false, 0
-../wisdom/wisdom-0046.jpeg, false, 0
-../wisdom/wisdom-0047.jpeg, false, 0
-../wisdom/wisdom-0048.jpeg, false, 0
-../wisdom/wisdom-0049.jpeg, false, 0
-../wisdom/wisdom-0050.jpeg, false, 0
-../wisdom/wisdom-0051.jpeg, false, 0
-../wisdom/wisdom-0052.jpeg, false, 0
-../wisdom/wisdom-0053.jpeg, false, 0
-../wisdom/wisdom-0054.jpeg, false, 0
-../wisdom/wisdom-0055.jpeg, false, 0
-../wisdom/wisdom-0056.jpeg, false, 0
-../wisdom/wisdom-0057.jpeg, false, 0
-../wisdom/wisdom-0058.jpeg, false, 0
-../wisdom/wisdom-0059.jpeg, false, 0
-../wisdom/wisdom-0060.jpeg, false, 0
-../wisdom/wisdom-0061.jpeg, false, 0
-../wisdom/wisdom-0062.jpeg, false, 0
-../wisdom/wisdom-0063.jpeg, false, 0
-../wisdom/wisdom-0064.jpeg, false, 0
-../wisdom/wisdom-0065.jpeg, false, 0
-../wisdom/wisdom-0066.jpeg, false, 0
-../wisdom/wisdom-0067.jpeg, false, 0
-../wisdom/wisdom-0068.jpeg, false, 0
-../wisdom/wisdom-0069.jpeg, false, 0
-../wisdom/wisdom-0070.jpeg, false, 0
-../wisdom/wisdom-0071.jpeg, false, 0
-../wisdom/wisdom-0072.jpeg, true,  0
-../wisdom/wisdom-0073.jpeg, false, 0
-../wisdom/wisdom-0074.jpeg, false, 0
-../wisdom/wisdom-0075.jpeg, false, 0
-../wisdom/wisdom-0076.jpeg, false, 0
-../wisdom/wisdom-0077.jpeg, true,  0
-../wisdom/wisdom-0078.jpeg, false, 0
-../wisdom/wisdom-0079.jpeg, false, 0
-../wisdom/wisdom-0080.jpeg, false, 0
-../wisdom/wisdom-0081.jpeg, false, 0
-../wisdom/wisdom-0082.jpeg, false, 0
-../wisdom/wisdom-0083.jpeg, false, 0
-../wisdom/wisdom-0084.jpeg, false, 0
-../wisdom/wisdom-0085.jpeg, false, 0
-../wisdom/wisdom-0086.jpeg, false, 0
-../wisdom/wisdom-0087.jpeg, false, 0
-../wisdom/wisdom-0088.jpeg, false, 0
-../wisdom/wisdom-0089.jpeg, false, 0
-../wisdom/wisdom-0090.jpeg, false, 0
-../wisdom/wisdom-0090.jpeg, false, 0
-../wisdom/wisdom-0091.jpeg, false, 0
-../wisdom/wisdom-0092.jpeg, false, 0
-../wisdom/wisdom-0093.jpeg, false, 0
-../wisdom/wisdom-0094.jpeg, false, 0
-../wisdom/wisdom-0095.jpeg, false, 0
-../wisdom/wisdom-0096.jpeg, false, 0
-../wisdom/wisdom-0097.jpeg, false, 0
-../wisdom/wisdom-0098.jpeg, false, 0
-../wisdom/wisdom-0099.jpeg, false, 0
-../wisdom/wisdom-0100.jpeg, false, 0
-../wisdom/wisdom-0101.jpeg, false, 0
-../wisdom/wisdom-0102.jpeg, false, 0
-../wisdom/wisdom-0103.jpeg, false, 0
-../wisdom/wisdom-0104.jpeg, false, 0
-../wisdom/wisdom-0105.jpeg, false, 0
-../wisdom/wisdom-0106.jpeg, false, 0
-../wisdom/wisdom-0107.jpeg, false, 0
-../wisdom/wisdom-0108.jpeg, false, 0
-../wisdom/wisdom-0109.jpeg, false, 0
-../wisdom/wisdom-0110.jpeg, false, 0
-../wisdom/wisdom-0111.jpeg, false, 0
+../wisdom/wisdom-0000.jpeg, true,  0,   0
+../wisdom/wisdom-0001.jpeg, false, 2,   2
+../wisdom/wisdom-0002.jpeg, false, 0,   0
+../wisdom/wisdom-0003.jpeg, false, 0,   0
+../wisdom/wisdom-0004.jpeg, false, 0,   0
+../wisdom/wisdom-0005.jpeg, false, 180, 1
+../wisdom/wisdom-0006.jpeg, false, 15,  1
+../wisdom/wisdom-0007.jpeg, false, 0,   4
+../wisdom/wisdom-0008.jpeg, false, 180, 4
+../wisdom/wisdom-0009.jpeg, false, 0,   2
+../wisdom/wisdom-0010.jpeg, false, -5,  3
+../wisdom/wisdom-0011.jpeg, false, 180, 3
+../wisdom/wisdom-0012.jpeg, false, 180, 6
+../wisdom/wisdom-0013.jpeg, false, -165,    4
+../wisdom/wisdom-0014.jpeg, false, 0,   3
+../wisdom/wisdom-0015.jpeg, false, -165,    2
+../wisdom/wisdom-0016.jpeg, false, 180, 5
+../wisdom/wisdom-0017.jpeg, false, 180, 2
+../wisdom/wisdom-0018.jpeg, false, -175,    5
+../wisdom/wisdom-0019.jpeg, false, 0,   3
+../wisdom/wisdom-0020.jpeg, false, -175,    3
+../wisdom/wisdom-0021.jpeg, false, 0,   3
+../wisdom/wisdom-0022.jpeg, false, 180, 5
+../wisdom/wisdom-0023.jpeg, false, 180, 2
+../wisdom/wisdom-0024.jpeg, false, 0,   4
+../wisdom/wisdom-0025.jpeg, false, 90,  3
+../wisdom/wisdom-0026.jpeg, false, 90,  10
+../wisdom/wisdom-0027.jpeg, false, 0,   0
+../wisdom/wisdom-0028.jpeg, false, 90,  5
+../wisdom/wisdom-0029.jpeg, false, 180, 2
+../wisdom/wisdom-0030.jpeg, false, 10,  2
+../wisdom/wisdom-0031.jpeg, false, 5,   4
+../wisdom/wisdom-0032.jpeg, false, -85, 4
+../wisdom/wisdom-0033.jpeg, false, -90, 3
+../wisdom/wisdom-0034.jpeg, false, 0,   2
+../wisdom/wisdom-0035.jpeg, false, 10,  3
+../wisdom/wisdom-0036.jpeg, false, 0,   3
+../wisdom/wisdom-0037.jpeg, false, 0,   4
+../wisdom/wisdom-0038.jpeg, false, 90,  14
+../wisdom/wisdom-0039.jpeg, false, 0,   7
+../wisdom/wisdom-0040.jpeg, false, -90, 4
+../wisdom/wisdom-0041.jpeg, false, 90,  8
+../wisdom/wisdom-0042.jpeg, false, 120, 9
+../wisdom/wisdom-0043.jpeg, false, 90,  5
+../wisdom/wisdom-0044.jpeg, false, 15,  5
+../wisdom/wisdom-0045.jpeg, false, -90, 5
+../wisdom/wisdom-0046.jpeg, false, 0,   5
+../wisdom/wisdom-0047.jpeg, false, 55,  3
+../wisdom/wisdom-0048.jpeg, false, 0,   0
+../wisdom/wisdom-0049.jpeg, false, 0,   4
+../wisdom/wisdom-0050.jpeg, false, 0,   3
+../wisdom/wisdom-0051.jpeg, false, 180, 1
+../wisdom/wisdom-0052.jpeg, false, 90,  3
+../wisdom/wisdom-0053.jpeg, false, 0,   0
+../wisdom/wisdom-0054.jpeg, false, 0,   0
+../wisdom/wisdom-0055.jpeg, false, 0,   0
+../wisdom/wisdom-0056.jpeg, false, 0,   0
+../wisdom/wisdom-0057.jpeg, false, -175,    2
+../wisdom/wisdom-0058.jpeg, false, 180, 1
+../wisdom/wisdom-0059.jpeg, false, 180, 2
+../wisdom/wisdom-0060.jpeg, false, 180, 5
+../wisdom/wisdom-0061.jpeg, false, -5,  2
+../wisdom/wisdom-0062.jpeg, false, 0,   1
+../wisdom/wisdom-0063.jpeg, false, 0,   2
+../wisdom/wisdom-0064.jpeg, false, 180, 1
+../wisdom/wisdom-0065.jpeg, false, 0,   2
+../wisdom/wisdom-0066.jpeg, false, -160,    3
+../wisdom/wisdom-0067.jpeg, false, 180, 2
+../wisdom/wisdom-0068.jpeg, false, 5,   4
+../wisdom/wisdom-0069.jpeg, false, -160,    3
+../wisdom/wisdom-0070.jpeg, false, 0,   2
+../wisdom/wisdom-0071.jpeg, false, -170,    2
+../wisdom/wisdom-0072.jpeg, true,  0,   0
+../wisdom/wisdom-0073.jpeg, false, 180, 2
+../wisdom/wisdom-0074.jpeg, false, 180, 3
+../wisdom/wisdom-0075.jpeg, false, 180, 5
+../wisdom/wisdom-0076.jpeg, false, 180, 5
+../wisdom/wisdom-0077.jpeg, true,  0,   0
+../wisdom/wisdom-0078.jpeg, false, 180, 3
+../wisdom/wisdom-0079.jpeg, false, 0,   0
+../wisdom/wisdom-0080.jpeg, false, 180, 3
+../wisdom/wisdom-0081.jpeg, false, 180, 4
+../wisdom/wisdom-0082.jpeg, false, 180, 3
+../wisdom/wisdom-0083.jpeg, false, 180, 2
+../wisdom/wisdom-0084.jpeg, false, 180, 1
+../wisdom/wisdom-0085.jpeg, false, 180, 3
+../wisdom/wisdom-0086.jpeg, false, 180, 5
+../wisdom/wisdom-0087.jpeg, false, 180, 2
+../wisdom/wisdom-0088.jpeg, false, -120,    2
+../wisdom/wisdom-0089.jpeg, false, 180, 3
+../wisdom/wisdom-0090.jpeg, false, 0,   2
+../wisdom/wisdom-0091.jpeg, false, 180, 2
+../wisdom/wisdom-0092.jpeg, false, 150, 4
+../wisdom/wisdom-0093.jpeg, false, 0,   3
+../wisdom/wisdom-0094.jpeg, false, 0,   3
+../wisdom/wisdom-0095.jpeg, false, 180, 3
+../wisdom/wisdom-0096.jpeg, false, -160,    4
+../wisdom/wisdom-0097.jpeg, false, 180, 6
+../wisdom/wisdom-0098.jpeg, false, -140,    2
+../wisdom/wisdom-0099.jpeg, false, 180, 2
+../wisdom/wisdom-0100.jpeg, false, 0,   2
+../wisdom/wisdom-0101.jpeg, false, 170, 1
+../wisdom/wisdom-0102.jpeg, false, 180, 3
+../wisdom/wisdom-0103.jpeg, false, 180, 2
+../wisdom/wisdom-0104.jpeg, false, -170,    3
+../wisdom/wisdom-0105.jpeg, false, 180, 2
+../wisdom/wisdom-0106.jpeg, false, 0,   4
+../wisdom/wisdom-0107.jpeg, false, 0,   5
+../wisdom/wisdom-0108.jpeg, false, 90,  1
+../wisdom/wisdom-0109.jpeg, false, 0,   6
+../wisdom/wisdom-0110.jpeg, false, 0,   6
+../wisdom/wisdom-0111.jpeg, false, 0,   6

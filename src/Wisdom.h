@@ -28,6 +28,9 @@ class Wisdom
         // Return true if this wisdom does not contain enough ink for analysis.
         bool isBlank();
 
+        // Return the angle of the text (0 = already level)
+        int angle();
+
         cv::Mat * getHoughLines();
     protected:
         std::string filepath;

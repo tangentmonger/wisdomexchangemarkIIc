@@ -10,6 +10,7 @@ struct TestData{
     std::string imagePath;
     bool isBlank;
     int textAngle;
+    int lines;
 };
 
 class WisdomTest : public Test::Suite { 
@@ -17,12 +18,14 @@ class WisdomTest : public Test::Suite {
         WisdomTest(){
             loadTestData();
             TEST_ADD (WisdomTest::detect_blanks); 
+            TEST_ADD (WisdomTest::levelling); 
         } 
     
     private:
         std::vector<TestData> m_testData;
         void loadTestData();
         void detect_blanks();
+        void levelling();
 }; 
 
 void WisdomTest::loadTestData()
@@ -39,11 +42,12 @@ void WisdomTest::loadTestData()
             boost::trim(item);
             elements.push_back(item);
         }
-        assert(elements.size() == 3);
+        assert(elements.size() == 4);
 
         TestData data = {elements[0],
                          elements[1] == "true",
-                         std::stoi(elements[2])};
+                         std::stoi(elements[2]),
+                         std::stoi(elements[3])};
         m_testData.push_back(data);
     }
 }
@@ -64,6 +68,45 @@ void WisdomTest::detect_blanks()
     std::ostringstream result;
     result << correct << "/" << m_testData.size() << " blanks detected correctly";
     TEST_ASSERT_MSG(correct == m_testData.size(), result.str().c_str());
+}
+
+void WisdomTest::levelling()
+{
+    int correct = 0;
+    int qualifying = 0;
+    for(TestData data : m_testData)
+    {
+        if(!data.isBlank && data.lines>0)
+        {
+            qualifying++;
+            Wisdom wisdom(data.imagePath);
+            int angle = wisdom.angle() % 180;
+            int expected = data.textAngle % 180;
+            std::cout<<data.imagePath;
+            std::cout<<"\texpected="<<expected<<" \tdetected="<< angle;
+            int difference = abs(angle - expected) % 180;
+            if(difference > 90)
+            {
+                difference = 180 - difference;
+            }
+            std::cout<<"\tdifference=" << difference;
+            if(difference <= 5)
+            {
+                std::cout<<"\n";
+                correct++;
+            }
+            else
+            {
+                std::cout<<"\tFAIL\n";
+            }
+            //TEST_ASSERT_MSG(difference < 5, data.imagePath.c_str());
+        }
+    }
+    std::ostringstream result;
+    result << correct << "/" << qualifying << " angles detected correctly (" << (float)correct* 100 /qualifying << "%)\n" ;
+    TEST_ASSERT_MSG(correct == qualifying, result.str().c_str());
+
+
 }
 
 int main ( ) 
